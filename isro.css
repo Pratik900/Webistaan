@@ -1,0 +1,28 @@
+#contents{
+    padding-right: 500px;
+}
+body{
+    background-image: linear-gradient(#A7A2A9,#575A5E);
+}
+#card{
+    padding-bottom: 10px;
+}
+#name{
+    padding-left: 880px;
+    font-size: x-large;
+}
+#fot{
+    padding-left: 780px;
+}
+#card
+{
+    box-shadow: 5px 5px #C1BDB3;
+}
+#card:hover{
+    vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  margin: 10px;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
